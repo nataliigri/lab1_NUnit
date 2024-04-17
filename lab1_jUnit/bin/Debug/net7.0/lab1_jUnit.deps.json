@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "lab1_jUnit/1.0.0": {
+        "dependencies": {
+          "NUnit": "4.1.0",
+          "NugetPackageManager": "1.0.0"
+        },
+        "runtime": {
+          "lab1_jUnit.dll": {}
+        }
+      },
+      "NugetPackageManager/1.0.0": {
+        "runtime": {
+          "lib/net6.0/NugetPackageManager.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NUnit/4.1.0": {
+        "runtime": {
+          "lib/net6.0/nunit.framework.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          },
+          "lib/net6.0/nunit.framework.legacy.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lab1_jUnit/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NugetPackageManager/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lzzjrxC/UkYOgZ7jDKXBKCHTVJYlQ19fGmUJ7jwt7nfsJdhrqwBN/LvMI/GvxG+560QT7p+oAD9RsRPvnmFFhw==",
+      "path": "nugetpackagemanager/1.0.0",
+      "hashPath": "nugetpackagemanager.1.0.0.nupkg.sha512"
+    },
+    "NUnit/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MT/DpAhjtiytzhTgTqIhBuWx4y26PKfDepYUHUM+5uv4TsryHC2jwFo5e6NhWkApCm/G6kZ80dRjdJFuAxq3rg==",
+      "path": "nunit/4.1.0",
+      "hashPath": "nunit.4.1.0.nupkg.sha512"
+    }
+  }
+}

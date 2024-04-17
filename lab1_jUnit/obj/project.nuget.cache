@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yLT35SblZHxGefPDNzzmVJCyX85HLgKlebk9scKvmPfL7DXLJYxcCZ3In1Y2FqsSAvwLDx11zAgW+cyjnnmxtw==",
+  "success": true,
+  "projectFilePath": "/Users/nataliiagricisin/Documents/3 курс/II семестр/lab1_jUnit/lab1_jUnit/lab1_jUnit.csproj",
+  "expectedPackageFiles": [
+    "/Users/nataliiagricisin/.nuget/packages/nugetpackagemanager/1.0.0/nugetpackagemanager.1.0.0.nupkg.sha512",
+    "/Users/nataliiagricisin/.nuget/packages/nunit/4.1.0/nunit.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

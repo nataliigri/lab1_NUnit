@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "NugetPackageManager/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/NugetPackageManager.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/NugetPackageManager.dll": {}
+        }
+      },
+      "NUnit/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/nunit.framework.dll": {},
+          "lib/net6.0/nunit.framework.legacy.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/nunit.framework.dll": {},
+          "lib/net6.0/nunit.framework.legacy.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NugetPackageManager/1.0.0": {
+      "sha512": "lzzjrxC/UkYOgZ7jDKXBKCHTVJYlQ19fGmUJ7jwt7nfsJdhrqwBN/LvMI/GvxG+560QT7p+oAD9RsRPvnmFFhw==",
+      "type": "package",
+      "path": "nugetpackagemanager/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/NugetPackageManager.dll",
+        "nugetpackagemanager.1.0.0.nupkg.sha512",
+        "nugetpackagemanager.nuspec"
+      ]
+    },
+    "NUnit/4.1.0": {
+      "sha512": "MT/DpAhjtiytzhTgTqIhBuWx4y26PKfDepYUHUM+5uv4TsryHC2jwFo5e6NhWkApCm/G6kZ80dRjdJFuAxq3rg==",
+      "type": "package",
+      "path": "nunit/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.md",
+        "README.md",
+        "THIRD_PARTY_NOTICES.md",
+        "build/NUnit.props",
+        "icon.png",
+        "lib/net462/nunit.framework.dll",
+        "lib/net462/nunit.framework.legacy.dll",
+        "lib/net462/nunit.framework.legacy.xml",
+        "lib/net462/nunit.framework.xml",
+        "lib/net6.0/nunit.framework.dll",
+        "lib/net6.0/nunit.framework.legacy.dll",
+        "lib/net6.0/nunit.framework.legacy.xml",
+        "lib/net6.0/nunit.framework.xml",
+        "nunit.4.1.0.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "NUnit >= 4.1.0",
+      "NugetPackageManager >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/nataliiagricisin/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/nataliiagricisin/Documents/3 курс/II семестр/lab1_jUnit/lab1_jUnit/lab1_jUnit.csproj",
+      "projectName": "lab1_jUnit",
+      "projectPath": "/Users/nataliiagricisin/Documents/3 курс/II семестр/lab1_jUnit/lab1_jUnit/lab1_jUnit.csproj",
+      "packagesPath": "/Users/nataliiagricisin/.nuget/packages/",
+      "outputPath": "/Users/nataliiagricisin/Documents/3 курс/II семестр/lab1_jUnit/lab1_jUnit/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/nataliiagricisin/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "NUnit": {
+            "target": "Package",
+            "version": "[4.1.0, )"
+          },
+          "NugetPackageManager": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
